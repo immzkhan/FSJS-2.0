@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #F9F5ED;
+    box-sizing: border-box;
+}
+nav{
+    padding: 20px  10%;
+    height: 15vh;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 5%;
+    font-weight: 500;
+} 
+
+/* CSS For main Section */
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+}
+.left{
+    width: 40%;
+}
+.left h1{
+    font-size: 67px;
+}
+
+.left p{
+    font-weight: 200;
+      margin: 5% 0;
+}   
+ 
+.left button{
+    padding: 15px 20px;
+    border: none;
+    color:white;
+    background-color: #3b855b;
+    border-radius: 10px;
+    font-weight: 500;
+
+}
+
+
+
+.right{
+    width: 60%;
+}
