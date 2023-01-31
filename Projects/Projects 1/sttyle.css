@@ -28,7 +28,7 @@ main{
     margin-left: 10%;
 }
 .left{
-    width: 40%;
+    width: 30%;
 }
 .left h1{
     font-size: 67px;
@@ -40,17 +40,26 @@ main{
 }   
  
 .left button{
-    padding: 15px 20px;
+    padding: 20px 25px;
     border: none;
     color:white;
     background-color: #3b855b;
     border-radius: 10px;
     font-weight: 500;
+    cursor: pointer;
 
 }
 
 
 
 .right{
+    padding-left: 125px;
     width: 60%;
+}
+
+.img12{
+    padding: 10px;
+}
+.img3{
+    padding: 10px;
 }
