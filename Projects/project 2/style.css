@@ -61,4 +61,8 @@ main{
     position: absolute;
     right: 20px;
 }
-Making The position 
+/* Making The position  */
+.docter{
+    position: fixed;
+    
+}
