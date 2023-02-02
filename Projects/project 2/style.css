@@ -63,6 +63,8 @@ main{
 }
 /* Making The position  */
 .docter{
-    position: fixed;
+    position: relative;
+    margin: auto;
+    padding: 10px;
     
 }
