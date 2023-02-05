@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: { 
+            screen :{
+            sm: '480px',
+            md: '768px',
+            lg: '976px',
+            xl: '1280px',
+          }
+            extend: {
+              colors: {
+                myblue: '#2827CC',
+                myred: '#E21717',
+                mygray: '#242B2E',
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body class="bg-gray-900">
+    <!-- navbar -->
+    <nav>
+
+    </nav>
+</body>
+</html>
