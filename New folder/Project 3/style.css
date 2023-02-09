@@ -10,7 +10,10 @@ nav{
 ul{
     display: flex;
     list-style: none;
-    
+ }
 
+.text{
+    display: flex;
+    height: 100px;
 
-}
+ }
