@@ -1,9 +1,10 @@
 *{
-    margin: auto;
-    padding: auto;
+    margin: 0;
+    padding: 10px;
     background-color: #2c3231;
 }
-nav{
+nav{ 
+    margin-top: 15px;
     display: flex;
     align-items: center;
 }
@@ -11,9 +12,13 @@ ul{
     display: flex;
     list-style: none;
  }
+ li{
+    margin-right: 15px;
+ }
 
 .text{
-    display: flex;
-    height: 100px;
-
+ 
+ } 
+ .heading{
+    font-size: 50px
  }
