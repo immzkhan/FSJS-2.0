@@ -1,24 +1,26 @@
 *{
-    margin: 0;
-    padding: 10px;
+    margin: auto;
+    padding: auto;
     background-color: #2c3231;
 }
 nav{ 
     margin-top: 15px;
     display: flex;
     align-items: center;
+    /* justify-content: center; */
 }
 ul{
     display: flex;
     list-style: none;
+    position: relative;
+    margin-right: 40px;
  }
- li{
-    margin-right: 15px;
+ .list{
+    /* float: right; */
  }
-
-.text{
+    
  
- } 
+
  .heading{
     font-size: 50px
  }
