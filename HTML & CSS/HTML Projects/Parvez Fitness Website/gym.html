@@ -27,7 +27,6 @@
       }
       .header:hover {
         background-color: #b9baba3d;
-        
       }
       .logo {
         display: inline-block;
@@ -40,14 +39,16 @@
         filter: invert(100%);
       }
       .logo div {
+        font-weight: 600;
+        color: white;
         line-height: 0;
       }
-      .logo:hover{
+      .logo:hover {
+        font-weight: 600;
         color: black;
         filter: invert(100%);
       }
       .navbar {
-      
         display: block;
         width: 40%;
         margin: 20px auto;
@@ -83,47 +84,56 @@
       .btn:hover {
         background-color: rgb(4, 3, 3);
         /* color: black; */
-        
       }
-      .container{
+      .container {
         background-color: #c4e5e024;
         /* border: 2px solid white; */
-    padding: 14px 2px;
-    margin: 146px 99px;
-    border-radius: 21px;
-    width: 42%;
+        padding: 14px 2px;
+        margin: 146px 99px;
+        border-radius: 21px;
+        width: 42%;
       }
-      .container:hover{
+      .container:hover {
         background-color: #b9baba3d;
         /* border: 2px solid white; */
-    padding: 14px 2px;
-    margin: 146px 99px;
-    border-radius: 21px;
-    width: 42%;
+        padding: 14px 2px;
+        margin: 146px 99px;
+        border-radius: 21px;
+        width: 42%;
       }
-      .form-gp input{
+      .form-gp input {
         text-align: center;
-    display: block;
-    width: 423px;
-    padding: 6px 9px;
-    margin: 6px auto;
-    border-radius: 7px;
-    font-size: 27px;
-    border: 2px solid black;
-} .container h1 {
-    text-align: center;
-    margin: 1px 2px ;
-    padding: 2px 3px;
+        display: block;
+        width: 423px;
+        padding: 6px 9px;
+        margin: 6px auto;
+        border-radius: 7px;
+        font-size: 27px;
+        border: 2px solid black;
+   
+      }
+      .form-gp input:hover {
+        border: 2px solid rgb(255, 255, 255);
+        background-color: rgb(37, 37, 37);
+        color: white;
+      }
 
-}
- .container button {
-    margin: 9px auto;
-    padding: 3px 13px;
-    width: 423px;
-    display: block;
-    font-size: 27px;
-    border-radius: 7px;}
-     
+      .container h1 {
+        text-align: center;
+        margin: 1px 2px;
+        padding: 2px 3px;
+      }
+      .container h1:hover {
+        color: black;
+      }
+      .container button {
+        margin: 9px auto;
+        padding: 3px 13px;
+        width: 423px;
+        display: block;
+        font-size: 27px;
+        border-radius: 7px;
+      }
     </style>
   </head>
   <body>
@@ -132,7 +142,7 @@
       <!-- Logo Section -->
       <div class="logo">
         <img src="./Asssets/logo.png" alt="Logo For The Gym Website" />
-        <div class="name">Immz Fitness</div>
+        <div class="name">Parvez Fitness</div>
       </div>
       <!-- Navbar Section -->
       <div class="navbar">
@@ -151,23 +161,23 @@
     </header>
     <!-- InputForm -->
     <div class="container">
-       <h1>Join The Best Gym Now</h1>
-       <form action="noaction.php">
+      <h1>Join The Best Gym Now</h1>
+      <form action="noaction.php">
         <div class="form-gp">
-            <input type="text" name="" placeholder="Full Name">
+          <input type="text" name="" placeholder="Full Name" />
         </div>
         <div class="form-gp">
-            <input type="text" name="" placeholder="Gender">
+          <input type="text" name="" placeholder="Gender" />
         </div>
         <div class="form-gp">
-            <input type="text" name="" placeholder="Contact No">
+          <input type="text" name="" placeholder="Contact No" />
         </div>
         <div class="form-gp">
-            <input type="text" name="" placeholder="Email Address">
+          <input type="text" name="" placeholder="Email Address" />
         </div>
-       
+
         <button class="btn">Submit</button>
-       </form>
+      </form>
     </div>
   </body>
 </html>
