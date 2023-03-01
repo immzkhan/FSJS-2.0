@@ -17,4 +17,5 @@ console.log(firstname,lastname,"my Number is",mobile)
 // Tempate Literal
 
 console.log(`My Current First Name Is ${firstname} ${lastname} ${mobile}`);
-console.log("my Full Name Is ",firstname,lastname)
+console.log("my Full Name Is ",firstname,lastname);
+console.log("my last name is",lastname);
