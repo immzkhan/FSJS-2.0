@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Immz Fitness</title>
+    <style>
+      /* CSS Reset */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-size: 25px;
+        color: white;
+        background: url(./Asssets/pexels-cesar-galeão-3253498.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .header {
+        background-color: #c4e5e024;
+        margin: 22px 3px;
+        padding: 8px 3px;
+        opacity: 101%;
+      }
+      .header:hover {
+        background-color: #b9baba3d;
+      }
+      .logo {
+        display: inline-block;
+        position: absolute;
+        top: 16px;
+        left: 80px;
+      }
+      .logo img {
+        width: 135px;
+        filter: invert(100%);
+      }
+      .logo div {
+        font-weight: 600;
+        color: white;
+        line-height: 0;
+      }
+      .logo:hover {
+        font-weight: 600;
+        color: black;
+        filter: invert(100%);
+      }
+      .navbar {
+        display: block;
+        width: 40%;
+        margin: 20px auto;
+      }
+      .utilites {
+        display: inline-block;
+        position: absolute;
+        top: 47px;
+        right: 76px;
+      }
+      .navbar ul li {
+        list-style: none;
+        display: inline-block;
+      }
+      .navbar li a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        padding: 1px 15px;
+        margin: 2px 3px;
+      }
+      .navbar li a:hover {
+        color: rgb(0, 0, 0);
+      }
+      .btn {
+        background-color: #c4e5e024;
+        color: rgb(255, 253, 253);
+        padding: 2px 40px;
+        margin: 2px 16px;
+        font-size: 20px;
+        border: 2px solid gray;
+        border-radius: 7px;
+      }
+      .btn:hover {
+        background-color: rgb(4, 3, 3);
+        /* color: black; */
+      }
+      .container {
+        background-color: #c4e5e024;
+        /* border: 2px solid white; */
+        padding: 14px 2px;
+        margin: 146px 99px;
+        border-radius: 21px;
+        width: 42%;
+      }
+      .container:hover {
+        background-color: #b9baba3d;
+        /* border: 2px solid white; */
+        padding: 14px 2px;
+        margin: 146px 99px;
+        border-radius: 21px;
+        width: 42%;
+      }
+      .form-gp input {
+        text-align: center;
+        display: block;
+        width: 423px;
+        padding: 6px 9px;
+        margin: 6px auto;
+        border-radius: 7px;
+        font-size: 27px;
+        border: 2px solid black;
+   
+      }
+      .form-gp input:hover {
+        border: 2px solid rgb(255, 255, 255);
+        background-color: rgb(37, 37, 37);
+        color: white;
+      }
+
+      .container h1 {
+        text-align: center;
+        margin: 1px 2px;
+        padding: 2px 3px;
+      }
+      .container h1:hover {
+        color: black;
+      }
+      .container button {
+        margin: 9px auto;
+        padding: 3px 13px;
+        width: 423px;
+        display: block;
+        font-size: 27px;
+        border-radius: 7px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header">
+      <!-- Logo Section -->
+      <div class="logo">
+        <img src="./Asssets/logo.png" alt="Logo For The Gym Website" />
+        <div class="name">Parvez Fitness</div>
+      </div>
+      <!-- Navbar Section -->
+      <div class="navbar">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Fitness Calculator</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <!-- Button Section -->
+      <div class="utilites">
+        <button class="btn">Call Us</button>
+        <button class="btn">Email Us</button>
+      </div>
+    </header>
+    <!-- InputForm -->
+    <div class="container">
+      <h1>Join The Best Gym Now</h1>
+      <form action="noaction.php">
+        <div class="form-gp">
+          <input type="text" name="" placeholder="Full Name" />
+        </div>
+        <div class="form-gp">
+          <input type="text" name="" placeholder="Gender" />
+        </div>
+        <div class="form-gp">
+          <input type="text" name="" placeholder="Contact No" />
+        </div>
+        <div class="form-gp">
+          <input type="text" name="" placeholder="Email Address" />
+        </div>
+
+        <button class="btn">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
