@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animanation</title>
+    <style>
+      .container {
+        background: greenyellow;
+      }
+      .box {
+        background-color: rgb(15, 141, 40);
+        height: 250px;
+        width: 200px;
+        position: relative;
+        animation-name: imran2;
+        animation-duration: 4s;
+        animation-iteration-count: 1;
+        animation-fill-mode: alternate;
+        animation-timing-function: ease-in;
+        animation-delay: 2s;
+        animation-direction: normal;
+      }
+
+      @keyframes imran {
+        from {
+          width: 200px;
+        }
+        to {
+          width: 800px;
+        }
+      }
+
+      @keyframes imran2 {
+        0% {
+          top: 0px;
+          left: 0px;
+        }
+        20% {
+          top: 400px;
+          left: 0px;
+        }
+        40% {
+          top: 400px;
+          left: 400px;
+        }
+        69% {
+          top: 0px;
+          left: 400px;
+        }
+        100% {
+          top: 0px;
+          left: 0px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box"></div>
+    </div>
+  </body>
+</html>
