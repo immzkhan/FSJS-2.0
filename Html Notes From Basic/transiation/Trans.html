@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transiation</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background: black;
+
+        }
+         .container{
+            height: 100vh;
+            width: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center; } 
+         
+        #box{
+            display: flex;
+            height: 200px ;
+            width: 200px;
+            background-color: yellow;
+            align-items: center;
+            justify-content: center;
+        transition-property: all;
+        transition-duration: 2s;
+        scale: 1;
+
+        }
+        #box:hover {
+            background-color: aliceblue;
+            width: 250px;
+            scale: 1.2; 
+            /* transform: rotate(360deg); */
+            /* transform: skew(15deg); */
+
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+       <div id="box">
+        This Is My Box
+       </div>
+    </div>
+</body>
+</html>
