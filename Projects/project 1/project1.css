@@ -1,0 +1,83 @@
+/* CSS Reset  */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: #F9F5ED;
+}
+
+/* navbar Section  */
+
+nav{
+    display: flex;
+    align-items: center;
+    margin: 17px 292px;
+    height: 64px;
+}
+
+
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 20px 35px;
+    font-size: 22px;
+    font-weight:350;
+}
+
+
+/* Here we are Styling for Hero Section  */
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 29px 63px 0px 250px;
+     
+}
+
+/* Left Section  */
+
+.left {
+    width: 40%;
+}
+
+.left h1 {
+ font-size: 67px;
+}
+.left p {
+    font-size: 21px;
+    margin: 16px 0px 20px 3px;
+}
+
+.left button{
+    padding: 13px 30px;
+    border: none;
+    color: white;
+    background-color: #3b855b;
+    border-radius: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+   /* Right Section  */
+
+
+.right{
+    width: 37%;
+    margin: 50px 100px;
+}
+
+.right img {
+    margin: 5px;
+}
