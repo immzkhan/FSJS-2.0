@@ -1,64 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Navbar</title>
-    <Style>
-        .navbar{
-            background-color: rgb(26, 177, 182);
-            border-radius: 10px;
+    <style>
+      .navbar {
+        background-color: rgb(26, 177, 182);
+        border-radius: 10px;
+      }
+      .navbar ul {
+        overflow: auto;
+      }
+      .navbar li {
+        float: left;
+        list-style: none;
+        margin: 12px 16px;
+      }
 
-        }
-        .navbar ul{
-            overflow: auto;
-        }
-        .navbar li{
-            float: left;
-            list-style:none;
-            margin: 12px 16px;
-           
-
-        }
-         
-    .navbar li a{ 
+      .navbar li a {
         font-weight: 500;
         text-decoration: none;
         color: black;
-         padding:3px 3px;
-    }
-    .navbar li a:hover {
+        padding: 3px 3px;
+      }
+      .navbar li a:hover {
         color: white;
-            }
-         
+      }
 
-    .search{
+      .search {
         float: right;
-       padding: 7px 20px;
-       
-    }
-    .navbar ul input{
-        padding:3px 45px ;
+        padding: 7px 20px;
+      }
+      .navbar ul input {
+        padding: 3px 45px;
         border: 2px solid black;
         border-radius: 12px;
         margin: 0px 20px;
-    }
-    </Style>
-</head>
-<body> 
+      }
+    </style>
+  </head>
+  <body>
     <header>
-        <nav class="navbar">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <div class="search"><input type="text" placeholder="Search Here"></div>
-                </ul>
-        </nav>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <div class="search">
+            <input type="text" placeholder="Search Here" />
+          </div>
+        </ul>
+      </nav>
     </header>
-    
-</body>
+  </body>
 </html>
